@@ -2,6 +2,8 @@
 
 export NOMAD_VERSION="$1"
 
+sudo apt install unzip
+
 mkdir --parent $HOME/install
 cd $HOME/install
 
